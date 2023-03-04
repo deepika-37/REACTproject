@@ -1,0 +1,35 @@
+.single__page{
+    margin:50px 20%;
+    align-items: center;
+    align-content: center;
+}
+.single__page img{
+    width: 100%;
+    margin: 20px 0;
+    height: 500px;
+    align-items: center;
+}
+#social{
+    margin-left: 600px;
+}
+#clap{
+    /* display: inline-block; */
+    background-repeat: no-repeat;
+    background-image: url(https://www.bing.com/images/blob?bcid=r5G.ejEhrsEEnw);
+}
+.icon{
+    width:103px;
+    /* display: inline-block; */
+    background-repeat: no-repeat;
+    height:fit-content;
+    background-image: url(https://cdn-sharing.adobecc.com/content/storage/id/urn:aaid:sc:US:b8a8258d-7b0b-4042-9818-a758226f5b5c;revision=0?component_id=ba95e7ce-c07b-4a38-85ff-bba901479295&api_key=CometServer1&access_token=1665544415_urn%3Aaaid%3Asc%3AUS%3Ab8a8258d-7b0b-4042-9818-a758226f5b5c%3Bpublic_2adf041a47b8e2d5ea6490330bb414c83aa9730f);
+}
+@media (max-width: 480px){
+    .sinlepage{
+        width:60%;
+    }
+    .single__page img{
+        width:50%;
+        height:45vh;
+    }
+}
